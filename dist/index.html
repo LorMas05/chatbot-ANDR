@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magento UI Module</title>
+</head>
+<body>
+    <div class="main-div">
+      <div class="full-container">
+          <!-- CHAT DIV -->
+          <div class="options-div" id="chatDiv">
+            <div class="chat-content" id="chatContainer">
+              <div class="bot-question" id="bot-question">{{secondQuestion}}</div>
+            </div>
+            <div class="input-form">
+              <input class="user-input" id="user-input" disabled="true">
+              <button class="sendButton" id="sendButton">➤</button>
+            </div>
+          </div>
+
+          <!-- decision tree div -->
+          <div class="recent-suggested-div">
+            <h1 class="mainLabel">Guida all'acquisto</h1>
+            <div class="category-container" id="decision-tree-container">
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <script src="bundle.js"></script>
+</body>
+</html>
+<style 
